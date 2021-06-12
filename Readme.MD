@@ -12,7 +12,8 @@
 
 **使用MySQL数据库进行数据存储**
 
-使用 docker-compose 进行部署，直接在 main 函数中进行直连，后续程序规模成型后可以改用MVC框架进行代码优化
+使用 docker-compose 进行部署，直接在 main 函数中进行直连，后续程序规模成型后可以改用MVC框架进行代码优化  
+使用docker进行mysql管理可能麻烦一点，也可以直接部署mysql服务，进行数据库内的权限设置，后使用 MySQL Workbench 方便的进行数据表操作
 
 ---
 
